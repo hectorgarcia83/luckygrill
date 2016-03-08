@@ -42,10 +42,9 @@
 		</section>
 		<section id="contenido">
 			<div id="slider">
-				<div id="map_canvas"></div>
 				<?php //include('modules/slider.php'); ?>
-				<?php //include('modules/ubicacion.php'); ?>
 			</div>
+			<?php include('modules/ubicacion.php'); ?>
 		</section>
 		<footer>
 			<nav class="navbar navbar-default navbar-fixed-bottom footer-content">
