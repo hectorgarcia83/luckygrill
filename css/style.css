@@ -13,14 +13,28 @@ body{
 	/*background: url('../images/fondo.jpg');*/
 }
 
+#contenido{
+    margin-top: 0px;
+    background: url('../images/fondo.jpg');
+    position: absolute;
+    width: 100%;
+    padding-top: 45px;
+}
+
 .menu-content,.footer-content{
-	background: url('../images/barra-fondo.jpg');
-	
+	/*background: url('../images/barra-fondo.jpg');*/
+    background-color: black;
+	opacity: 0.9;
+    filter: alpha(opacity=90);
 }
 
 .luckymenu{
 	float: right !important;
-   margin-right: -10px;
+    margin-right: -10px;
+}
+
+.luckymenu .active{
+    color: #F5D204 !important;
 }
     
 .navbar-default .navbar-nav > li > a{
@@ -29,6 +43,14 @@ body{
 	font-size: 25px;
 }
 
+.navbar-default .navbar-nav > li > a:hover{
+    color: #F5D204 !important;
+}
+
 .carousel-indicators{
 	bottom: 50px;
+}
+
+.galeria{
+    padding: 0 !important;
 }

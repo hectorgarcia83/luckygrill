@@ -20,7 +20,7 @@
 				<nav class="navbar navbar-default navbar-fixed-top menu-content">
 					<div class="container">
 						<ul class="nav navbar-nav luckymenu">
-							<li>
+							<li class="active">
 								<a href="/index.html">INICIO</a>
 							</li>
 							<li>
@@ -40,11 +40,17 @@
 				</nav>
 			</header>
 		</section>
+		<?php include('modules/slider.php'); ?>
 		<section id="contenido">
-			<div id="slider">
-				<?php //include('modules/slider.php'); ?>
-			</div>
+			
+
+			<?php include('modules/menu.php'); ?>
+
+			<?php include('modules/galeria.php'); ?>
+	
 			<?php include('modules/ubicacion.php'); ?>
+
+
 		</section>
 		<footer>
 			<nav class="navbar navbar-default navbar-fixed-bottom footer-content">
@@ -53,6 +59,7 @@
 			  </div>
 			</nav>
 		</footer>
+	
 		<script src="assets/foundation/js/vendor/jquery.min.js"></script>
 		<script src="assets/bootstrap/js/bootstrap.js"></script>
 		<script src="assets/bootstrap/js/jquery.carousel.fullscreen.js"></script>
