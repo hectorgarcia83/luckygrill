@@ -54,3 +54,63 @@ body{
 .galeria{
     padding: 0 !important;
 }
+.contacto{
+    min-height: 800px;
+}
+.contacto .logo{
+    margin-top: 255px;
+}
+.contenedor-form-contacto{
+    padding-right: 40px;
+}
+.form-contacto{
+    background-color: black;
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+    padding-bottom: 18px;
+}
+.form-contacto .titulo{
+    font-family: 'BebasNeueRegular';
+    margin-top: 20px;
+    color: #F5D204;
+    font-size: 57px;
+    text-transform: uppercase;
+    line-height: 55px;
+}
+.form-contacto label{
+    margin-top: 14px;
+    font-family: 'Arial';
+    color: #F5D204;
+    font-size: 20px;   
+}
+.form-contacto input[type="text"],input[type="date"],textarea{
+    width: 100%;
+    margin: 5px 0 0;
+    padding: 15px;
+    border: 0;
+    outline: 0;
+    resize: none;
+    font-size: 13px;
+    line-height: 17px;
+    background-color: #fff;
+    color: #818181;
+    font-family: 'Raleway';
+    font-weight: 400;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.contacto .botonEnviar{
+    font-family: 'BebasNeueRegular';
+    color: #F5D204;
+    font-size: 30px;
+    text-transform: uppercase;
+    background-color: black;
+    width: 100px;
+    height: 40px;
+    margin-right: 40px;
+    margin-top: 15px;
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+    cursor: pointer;
+}

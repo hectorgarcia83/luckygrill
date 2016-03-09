@@ -50,10 +50,12 @@
 	
 			<?php include('modules/ubicacion.php'); ?>
 
+			<?php include('modules/contacto.php'); ?>
+
 
 		</section>
 		<footer>
-			<nav class="navbar navbar-default navbar-fixed-bottom footer-content">
+			<nav class="navbar navbar-default navbar-fixead-bottom footer-content">
 			  <div class="container">
 			    <img src="images/logo-bottom.png" alt="">
 			  </div>
