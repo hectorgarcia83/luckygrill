@@ -11,6 +11,7 @@
 
 body{
 	/*background: url('../images/fondo.jpg');*/
+    position: relative;
 }
 
 #contenido{
@@ -30,7 +31,7 @@ body{
 
 .luckymenu{
 	float: right !important;
-    margin-right: -10px;
+    padding-right: -10px;
 }
 
 .luckymenu .active{
@@ -55,7 +56,7 @@ body{
     padding: 0 !important;
 }
 .contacto{
-    min-height: 800px;
+    min-height: 930px;
 }
 .contacto .logo{
     margin-top: 255px;
@@ -106,11 +107,23 @@ body{
     font-size: 30px;
     text-transform: uppercase;
     background-color: black;
-    width: 100px;
+    width: 132px;
     height: 40px;
     margin-right: 40px;
     margin-top: 15px;
     opacity: 0.7;
     filter: alpha(opacity=70);
     cursor: pointer;
+}
+
+.inputError{
+    border: solid 1px red;
+}
+.help-error{
+    color: #BF3037;
+}
+.contacto .botonEnviarDisabled{
+    background-color: gray;
+    color: #454545;
+    cursor: default;
 }
