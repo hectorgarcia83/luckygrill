@@ -4,6 +4,9 @@
 		<meta charset="utf-8" />
 		<meta http-equiv="x-ua-compatible" content="ie=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="author" content="Héctor García" />
+		<meta name="description" content="Sitio web del Restaurante Lucky Grill" />
+		<meta name="keywords" content="restaurante, restaurante bar, alitas, lucky grill, culiacán, cerveza, hamburguesas, kamilati" />
 		<title>Lucky Grill</title>
 		<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css" />
 		<link rel="stylesheet" href="assets/bootstrap/css/bootstrap-theme.css" />
