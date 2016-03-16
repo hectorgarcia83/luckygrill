@@ -9,6 +9,8 @@
 		<link rel="stylesheet" href="assets/bootstrap/css/bootstrap-theme.css" />
 		<link rel="stylesheet" href="assets/bootstrap/css/jquery.carousel.fullscreen.css" />
 		<link rel="stylesheet" href="css/style.css" />
+		<link rel="Stylesheet" type="text/css" href="assets/jquery.smoothdivscroll/css/smoothDivScroll.css" />
+		<link rel="Stylesheet" type="text/css" href="assets/colorbox/example3/colorbox.css" />
 		<!--[if lt IE 9]>
 		  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
 		  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
@@ -72,7 +74,23 @@
 		<footer>
 			<nav class="navbar navbar-default navbar-fixed-bottom footer-content">
 			  <div class="container">
-				 <img src="images/logo-bottom.png" alt="">
+					<div class="col-sm-2 elementoFooter">
+						<img src="images/horario.png" alt="">
+					</div>
+					<div class="col-sm-2 elementoFooter">
+						<img src="images/direccion.png" alt="">
+					</div>
+					<div class="col-sm-4 text-center logoFooter">
+						<img src="images/logo-footer.png" alt="">
+					</div>
+					<div class="col-sm-2 elementoFooter">
+						<img src="images/telefono.png" alt="">
+					</div>
+					<div class="col-sm-2 elementoFooter">
+						<a href="https://www.facebook.com/LuckyGrillWingsBar" target="_blank"><img style="border:none" src="images/facebook.png" alt=""></a>&nbsp;
+						<a href="https://www.instagram.com" target="_blank"><img style="border:none" src="images/instagram.png" alt=""></a>&nbsp;
+						<a href="https://twitter.com/luckygrillcln" target="_blank"><img style="border:none" src="images/twitter.png" alt=""></a>
+					</div>
 			  </div>
 			</nav>
 		</footer>
@@ -81,83 +99,12 @@
 		<script src="assets/bootstrap/js/bootstrap.js"></script>
 		<script src="assets/bootstrap/js/jquery.carousel.fullscreen.js"></script>
 		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDnImMHG_x_onIeh4GreC0BfVn9DOPiKQU&callback=initMap"async defer></script>
+		
+		<script src="assets/jquery-ui-1.10.3.custom.min.js" type="text/javascript"></script>
+		<script src="assets/jquery.mousewheel.min.js" type="text/javascript"></script>
+		<script src="assets/jquery.kinetic.min.js" type="text/javascript"></script>
+		<script src="assets/jquery.smoothdivscroll/js/jquery.smoothdivscroll-1.3-min.js" type="text/javascript"></script>
+		<script src="assets/colorbox/js/jquery.colorbox-min.js" type="text/javascript"></script>	
 		<script src="js/main.js"></script>
 	</body>
 </html>
-<script>
-	$(document).ready(function(){
-		$('body').scrollspy({ target: '#navbar-menu-lg' });
-		$('.help-block').hide();
-
-		$('.luckymenu a').click(function(e){
-			e.preventDefault();
-			var idElement = $(this).attr('href');
-			$('html, body').animate({
-				scrollTop: $(idElement).offset().top-50
-			}, 1000);
-		});
-
-		$('#navbar-menu-lg').on('activate.bs.scrollspy', function (e) {
-		  var $hash, $node;
-				$hash = $("a[href^='#']", e.target).attr("href").replace(/^#/, '');
-			  	$node = $('#' + $hash);
-				if ($node.length) {
-					$node.attr('id', '');
-				}
-				document.location.hash = $hash;
-				if ($node.length) {
-					return $node.attr('id', $hash);
-				}
-		})
-
-		
-
-		$('#btnEnviarContacto').click(function(){
-			if(!$(this).hasClass('botonEnviarDisabled')){
-				$('.help-block').hide();
-				var formData = {
-					nombre: $('#nombre').val(),
-					fechaCumpleanos: $('#cumple').val(),
-					mail: $('#mail').val(),
-					comentarios: $('#comentarios').val()
-				};
-				var error = false;
-				
-				if(formData.nombre == ""){
-					error = true;
-					$('#helpNombre').show();
-				}
-				if(formData.mail == "" || !validarEmail(formData.mail)){
-					error = true;
-					$('#helpMail').show();
-				}
-				if(formData.comentarios == ""){
-					error = true;
-					$('#helpComentarios').show();
-				}
-
-				if(!error){
-					$('#btnEnviarContacto').addClass('botonEnviarDisabled');
-					$('#btnEnviarContacto').html('Enviando...');
-					$.post('contactSend.php',formData,function(data){
-						$('#btnEnviarContacto').removeClass('botonEnviarDisabled');
-						$('#btnEnviarContacto').html('Enviar');
-						if(data.success){
-							var mensaje = '<p>Muchas gracias, tu mensaje ha sido enviado con éxito.</p>';
-								 mensaje += '<p>En breve nos pondremos en contacto contigo.</p>';
-							$('.modal-title').html('Exito.')
-							$('.modal-body').html(mensaje);
-							$("#myModal").modal('show');
-						}else{
-							var mensaje = '<p>Ocurrió un error, inténtelo de nuevo más tarde.</p>';
-							$('.modal-title').html('Error.')
-							$('.modal-body').html(mensaje);
-							$("#myModal").modal('show');
-						}
-					},'json');
-				}
-			}
-			
-		});
-	});
-</script>

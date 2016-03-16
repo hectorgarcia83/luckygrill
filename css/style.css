@@ -127,3 +127,9 @@ body{
     color: #454545;
     cursor: default;
 }
+.elementoFooter{
+    padding-top: 10px;
+}
+.logoFooter{
+    padding-top: 5px;
+}
