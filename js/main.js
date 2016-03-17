@@ -5,12 +5,16 @@ $(document).ready(function(){
 		manualContinuousScrolling: true
 	});
 	
-	$(".gal1").colorbox({rel:'gal1'});
+	$(".gal1").colorbox({
+		rel:'gal1',
+		maxWidth:'95%', 
+		maxHeight:'95%'
+	});
 
 	$('body').scrollspy({ target: '#navbar-menu-lg' });
 	$('.help-block').hide();
 
-	$('.luckymenu a').click(function(e){
+	$('.luckymenu a, .navbar-brand').click(function(e){
 		e.preventDefault();
 		var idElement = $(this).attr('href');
 		$('html, body').animate({

@@ -6,7 +6,7 @@ $fechaCumpleanos = $_POST["fechaCumpleanos"];
 $mail = $_POST["mail"];
 $comentarios = $_POST["comentarios"];
 
-$to = "hectorgarcia83@gmail.com,info@securitybox.com.mx";
+$to = "hectorgarcia83@gmail.com";
 $subject = "Contacto Lucky Grill";
 $body = "Una persona ha solicitado información desde el sitio web.";
 $body .= "<br><strong>Nombre: </strong>$nombre";

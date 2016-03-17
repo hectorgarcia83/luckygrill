@@ -10,7 +10,7 @@
 		<title>Lucky Grill</title>
 		<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css" />
 		<link rel="stylesheet" href="assets/bootstrap/css/bootstrap-theme.css" />
-		<link rel="stylesheet" href="assets/bootstrap/css/jquery.carousel.fullscreen.css" />
+		<!--<link rel="stylesheet" href="assets/bootstrap/css/jquery.carousel.fullscreen.css" />-->
 		<link rel="stylesheet" href="css/style.css" />
 		<link rel="Stylesheet" type="text/css" href="assets/jquery.smoothdivscroll/css/smoothDivScroll.css" />
 		<link rel="Stylesheet" type="text/css" href="assets/colorbox/example3/colorbox.css" />
@@ -18,6 +18,8 @@
 		  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
 		  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 	 <![endif]-->
+
+		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 	</head>
 	<body>
 		<section>
@@ -31,6 +33,7 @@
 				         <span class = "icon-bar"></span>
 				         <span class = "icon-bar"></span>
 				      </button>
+				      <a class="navbar-brand" href="#inicio"><img src="images/logo-footer.png" alt=""></a>
 				   </div>
 					<div class="collapse navbar-collapse luckymenu" id="navbar-menu-lg">
 						<ul class="nav navbar-nav">
@@ -73,8 +76,12 @@
 			<div id="contacto">
 				<?php include('modules/contacto.php'); ?>
 			</div>
+
+			<div id="pie" class="visible-xs">
+				<?php include('modules/pieCelular.php'); ?>
+			</div>
 		</section>
-		<footer>
+		<footer class="visible-sm visible-md visible-lg">
 			<nav class="navbar navbar-default navbar-fixed-bottom footer-content">
 			  <div class="container">
 					<div class="col-sm-2 elementoFooter">
@@ -83,13 +90,13 @@
 					<div class="col-sm-2 elementoFooter">
 						<img src="images/direccion.png" alt="">
 					</div>
-					<div class="col-sm-4 text-center logoFooter">
+					<div class="col-sm-3 text-center logoFooter">
 						<img src="images/logo-footer.png" alt="">
 					</div>
 					<div class="col-sm-2 elementoFooter">
 						<img src="images/telefono.png" alt="">
 					</div>
-					<div class="col-sm-2 elementoFooter">
+					<div class="col-sm-3 elementoFooter text-right">
 						<a href="https://www.facebook.com/LuckyGrillWingsBar" target="_blank"><img style="border:none" src="images/facebook.png" alt=""></a>&nbsp;
 						<a href="https://www.instagram.com" target="_blank"><img style="border:none" src="images/instagram.png" alt=""></a>&nbsp;
 						<a href="https://twitter.com/luckygrillcln" target="_blank"><img style="border:none" src="images/twitter.png" alt=""></a>
