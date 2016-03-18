@@ -33,7 +33,7 @@
 				         <span class = "icon-bar"></span>
 				         <span class = "icon-bar"></span>
 				      </button>
-				      <a class="navbar-brand" href="#inicio"><img src="images/logo-footer.png" alt=""></a>
+				      <a class="navbar-brand" href="#inicio"><img src="images/logo-footer-silueta.png" alt=""></a>
 				   </div>
 					<div class="collapse navbar-collapse luckymenu" id="navbar-menu-lg">
 						<ul class="nav navbar-nav">
@@ -91,14 +91,14 @@
 						<img src="images/direccion.png" alt="">
 					</div>
 					<div class="col-sm-3 text-center logoFooter">
-						<img src="images/logo-footer.png" alt="">
+						<img src="images/logo-footer-silueta.png" alt="">
 					</div>
 					<div class="col-sm-2 elementoFooter">
 						<img src="images/telefono.png" alt="">
 					</div>
 					<div class="col-sm-3 elementoFooter text-right">
 						<a href="https://www.facebook.com/LuckyGrillWingsBar" target="_blank"><img style="border:none" src="images/facebook.png" alt=""></a>&nbsp;
-						<a href="https://www.instagram.com" target="_blank"><img style="border:none" src="images/instagram.png" alt=""></a>&nbsp;
+						<a href="https://www.instagram.com/luckygrill/" target="_blank"><img style="border:none" src="images/instagram.png" alt=""></a>&nbsp;
 						<a href="https://twitter.com/luckygrillcln" target="_blank"><img style="border:none" src="images/twitter.png" alt=""></a>
 					</div>
 			  </div>
@@ -108,7 +108,7 @@
 		<script src="assets/foundation/js/vendor/jquery.min.js"></script>
 		<script src="assets/bootstrap/js/bootstrap.js"></script>
 		<script src="assets/bootstrap/js/jquery.carousel.fullscreen.js"></script>
-		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDnImMHG_x_onIeh4GreC0BfVn9DOPiKQU&callback=initMap"async defer></script>
+		<!--<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDnImMHG_x_onIeh4GreC0BfVn9DOPiKQU&callback=initMap"async defer></script>-->
 		
 		<script src="assets/jquery-ui-1.10.3.custom.min.js" type="text/javascript"></script>
 		<script src="assets/jquery.mousewheel.min.js" type="text/javascript"></script>

@@ -61,6 +61,13 @@ body{
     color: #F5D204 !important;
 }
 
+.mapa{
+  position: fixed;
+  width: 100%;
+  height: 600px;
+  background: url("../images/mapa.png") 50% 50% / cover no-repeat;
+}
+
 .carousel-indicators{
 	bottom: 50px;
 }
@@ -196,3 +203,4 @@ body{
 @media only screen and (min-width: 1200px){
   
 }
+

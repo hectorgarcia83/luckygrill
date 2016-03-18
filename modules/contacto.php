@@ -1,6 +1,6 @@
 <div class="contacto">
 	<div class="col-sm-4 col-sm-offset-1 logo">
-		<img src="images/logo-grande.png" alt="" class="img-responsive">
+		<img src="images/logo-grande-silueta.png" alt="" class="img-responsive">
 	</div>
 	<div class="col-sm-offset-1 col-sm-6 contenedor-form-contacto">
 		<div class="col-sm-12 form-contacto">
