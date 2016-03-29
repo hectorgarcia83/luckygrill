@@ -65,15 +65,26 @@ body{
   position: relative;
   width: 100%;
   height: 600px;
-  background: url("../images/mapa.png") 50% 50% / cover no-repeat;
+  background: url("../images/mapa_bw.png") 50% 50% / cover no-repeat;
 }
-
+.mapa img{
+  margin: 0 auto;
+}
+.mapa .ubica-text{
+  top: 30%;
+}
+.mapa .ubica-boton{
+  top: 32%;
+}
 .carousel-indicators{
 	bottom: 50px;
 }
 
 .galeria{
     padding: 0 !important;
+}
+.galeria .row{
+  margin-left: 0 !important;
 }
 .contacto{
     min-height: 930px;
@@ -175,7 +186,7 @@ body{
   .contenedor-form-contacto {
     padding-right: 5px;
   }
-  #map_canvas{
+  #map_canvas,.map{
     height:300px;
   }
 }
@@ -185,7 +196,7 @@ body{
     font-size: 34px;
     line-height: 34px;
   }
-  #map_canvas{
+  #map_canvas,.map{
     height:400px;
   }
 }
@@ -195,7 +206,7 @@ body{
     font-size: 46px;
     line-height: 46px;
   }
-  #map_canvas{
+  #map_canvas,.map{
     height:500px;
   }
 }

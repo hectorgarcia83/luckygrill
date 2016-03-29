@@ -8,12 +8,12 @@
 		<meta name="description" content="Sitio web del Restaurante Lucky Grill" />
 		<meta name="keywords" content="restaurante, restaurante bar, alitas, lucky grill, culiacán, cerveza, hamburguesas, kamilati" />
 		<title>Lucky Grill</title>
-		<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css" />
-		<link rel="stylesheet" href="assets/bootstrap/css/bootstrap-theme.css" />
-		<!--<link rel="stylesheet" href="assets/bootstrap/css/jquery.carousel.fullscreen.css" />-->
-		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" type="text/css" href="assets/bootstrap/css/bootstrap.css" />
+		<link rel="stylesheet" type="text/css" href="assets/bootstrap/css/bootstrap-theme.css" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
 		<link rel="Stylesheet" type="text/css" href="assets/jquery.smoothdivscroll/css/smoothDivScroll.css" />
 		<link rel="Stylesheet" type="text/css" href="assets/colorbox/example3/colorbox.css" />
+		<link rel="Stylesheet" type="text/css" href="assets/jqueryui/jquery-ui.css" />
 		<!--[if lt IE 9]>
 		  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
 		  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
@@ -108,13 +108,12 @@
 		<script src="assets/foundation/js/vendor/jquery.min.js"></script>
 		<script src="assets/bootstrap/js/bootstrap.js"></script>
 		<script src="assets/bootstrap/js/jquery.carousel.fullscreen.js"></script>
-		<!--<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDnImMHG_x_onIeh4GreC0BfVn9DOPiKQU&callback=initMap"async defer></script>-->
-		
-		<script src="assets/jquery-ui-1.10.3.custom.min.js" type="text/javascript"></script>
+		<script src="assets/jqueryui/jquery-ui.js" type="text/javascript"></script>
 		<script src="assets/jquery.mousewheel.min.js" type="text/javascript"></script>
 		<script src="assets/jquery.kinetic.min.js" type="text/javascript"></script>
 		<script src="assets/jquery.smoothdivscroll/js/jquery.smoothdivscroll-1.3-min.js" type="text/javascript"></script>
 		<script src="assets/colorbox/js/jquery.colorbox-min.js" type="text/javascript"></script>	
+		<script src="assets/jqueryui/datepicker-es.js"></script>
 		<script src="js/main.js"></script>
 	</body>
 </html>

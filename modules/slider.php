@@ -11,16 +11,16 @@
     <!-- Wrapper for slides -->
     <div class="carousel-inner">
         <div class="item active">
-            <img src="./images/sliders/slider-1.jpg" alt="" />
+            <img src="./images/sliders/xs/slider-1.jpg" alt="" />
         </div>
         <div class="item">
-            <img src="./images/sliders/slider-2.jpg" alt="" />
+            <img src="./images/sliders/xs/slider-2.jpg" alt="" />
         </div>
         <div class="item">
-            <img src="./images/sliders/slider-3.jpg" alt="" />
+            <img src="./images/sliders/xs/slider-3.jpg" alt="" />
         </div>
         <div class="item">
-            <img src="./images/sliders/slider-4.jpg" alt="" />
+            <img src="./images/sliders/xs/slider-4.jpg" alt="" />
         </div>
     </div>
 

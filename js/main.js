@@ -1,5 +1,10 @@
 var carousel;
 $(document).ready(function(){
+	$.datepicker.setDefaults($.datepicker.regional['es-MX']);
+	$( "#cumple" ).datepicker({
+		dateFormat: "DD, d 'de' MM 'de' yy"
+	});
+
 	$("div#makeMeScrollable").smoothDivScroll({
 		autoScrollingMode: "",
 		manualContinuousScrolling: true

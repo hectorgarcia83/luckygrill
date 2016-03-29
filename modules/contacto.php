@@ -1,4 +1,4 @@
-<div class="contacto">
+<div class="contacto col-sm-12">
 	<div class="col-sm-4 col-sm-offset-1 logo">
 		<img src="images/logo-grande-silueta.png" alt="" class="img-responsive">
 	</div>
@@ -23,7 +23,7 @@
 					<label for="cumple">Fecha de Cumpleaños</label>
 				</div>
 				<div class="col-sm-12">
-					<input type="date" name="cumple" id="cumple">
+					<input type="text" name="cumple" id="cumple">
 				</div>
 			</div>
 			<div class="row">
