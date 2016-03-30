@@ -215,3 +215,10 @@ body{
   
 }
 
+.banner{
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: right; 
+    height: 100%;
+    width: 100%;
+}

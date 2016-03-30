@@ -11,16 +11,28 @@
     <!-- Wrapper for slides -->
     <div class="carousel-inner">
         <div class="item active">
-            <img src="./images/sliders/xs/slider-1.jpg" alt="" />
+            <div class="visible-lg banner" style="background-image: url('./images/sliders/lg/slider-1.jpg')"></div>
+            <div class="visible-md banner" style="background-image: url('./images/sliders/md/slider-1.jpg')"></div>
+            <div class="visible-sm banner" style="background-image: url('./images/sliders/sm/slider-1.jpg')"></div>
+            <div class="visible-xs banner" style="background-image: url('./images/sliders/xs/slider-1.jpg')"></div>
         </div>
         <div class="item">
-            <img src="./images/sliders/xs/slider-2.jpg" alt="" />
+            <div class="visible-lg banner" style="background-image: url('./images/sliders/lg/slider-2.jpg')"></div>
+            <div class="visible-md banner" style="background-image: url('./images/sliders/md/slider-2.jpg')"></div>
+            <div class="visible-sm banner" style="background-image: url('./images/sliders/sm/slider-2.jpg')"></div>
+            <div class="visible-xs banner" style="background-image: url('./images/sliders/xs/slider-2.jpg')"></div>
         </div>
         <div class="item">
-            <img src="./images/sliders/xs/slider-3.jpg" alt="" />
+            <div class="visible-lg banner" style="background-image: url('./images/sliders/lg/slider-3.jpg')"></div>
+            <div class="visible-md banner" style="background-image: url('./images/sliders/md/slider-3.jpg')"></div>
+            <div class="visible-sm banner" style="background-image: url('./images/sliders/sm/slider-3.jpg')"></div>
+            <div class="visible-xs banner" style="background-image: url('./images/sliders/xs/slider-3.jpg')"></div>
         </div>
         <div class="item">
-            <img src="./images/sliders/xs/slider-4.jpg" alt="" />
+            <div class="visible-lg banner" style="background-image: url('./images/sliders/lg/slider-4.jpg')"></div>
+            <div class="visible-md banner" style="background-image: url('./images/sliders/md/slider-4.jpg')"></div>
+            <div class="visible-sm banner" style="background-image: url('./images/sliders/sm/slider-4.jpg')"></div>
+            <div class="visible-xs banner" style="background-image: url('./images/sliders/xs/slider-4.jpg')"></div>
         </div>
     </div>
 
