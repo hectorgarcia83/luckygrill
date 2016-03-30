@@ -76,6 +76,9 @@ body{
 .mapa .ubica-boton{
   top: 32%;
 }
+.carousel{
+  margin-top: 51px !important;
+}
 .carousel-indicators{
 	bottom: 50px;
 }
@@ -83,8 +86,9 @@ body{
 .galeria{
     padding: 0 !important;
 }
-.galeria .row{
+#galeria .row{
   margin-left: 0 !important;
+  margin-right: 0 !important;
 }
 .contacto{
     min-height: 930px;
@@ -218,7 +222,5 @@ body{
 .banner{
     background-size:cover;
     background-repeat: no-repeat;
-    background-position: right; 
-    height: 100%;
-    width: 100%;
+    background-position: center; 
 }
