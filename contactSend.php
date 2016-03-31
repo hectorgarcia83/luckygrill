@@ -16,7 +16,7 @@ $body .= "<br><strong>Comentarios: </strong>$comentarios";
 
 $cabeceras  = 'MIME-Version: 1.0' . "\r\n";
 $cabeceras .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
-$cabeceras .= 'From: Lucky Grill <no-reply@luckygrill.com>' . "\r\n";
+//$cabeceras .= 'From: Lucky Grill <no-reply@luckygrill.com>' . "\r\n";
 
 if(mail($to,$subject,$body,$cabeceras)){
 	$response = ["success" => true];

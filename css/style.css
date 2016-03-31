@@ -136,6 +136,32 @@ body{
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
+.form-contacto select{
+  height: 50px;
+  margin: 5px 0 0;
+  padding: 15px;
+  border: 0;
+  outline: 0;
+  resize: none;
+  font-size: 13px;
+  line-height: 17px;
+  background-color: #fff;
+  color: #818181;
+  font-family: 'Raleway';
+  font-weight: 400;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.select-dia{
+  width: 15%;
+}
+.select-mes{
+  width: 30%;
+}
+.select-anio{
+  width: 30%;
+}
 .contacto .botonEnviar{
     font-family: 'BebasNeueRegular';
     color: #F5D204;

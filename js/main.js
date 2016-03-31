@@ -1,10 +1,6 @@
 var carousel;
 $(document).ready(function(){
-	$.datepicker.setDefaults($.datepicker.regional['es-MX']);
-	$( "#cumple" ).datepicker({
-		dateFormat: "DD, d 'de' MM 'de' yy"
-	});
-
+	
 	$("div#makeMeScrollable").smoothDivScroll({
 		autoScrollingMode: "",
 		manualContinuousScrolling: true
@@ -45,7 +41,7 @@ $(document).ready(function(){
 			$('.help-block').hide();
 			var formData = {
 				nombre: $('#nombre').val(),
-				fechaCumpleanos: $('#cumple').val(),
+				fechaCumpleanos: $('#dia').val()+" / "+$('#mes').val()+" / "+$('#anio').val(),
 				mail: $('#mail').val(),
 				comentarios: $('#comentarios').val()
 			};

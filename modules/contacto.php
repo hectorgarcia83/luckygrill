@@ -23,7 +23,33 @@
 					<label for="cumple">Fecha de Cumpleaños</label>
 				</div>
 				<div class="col-sm-12">
-					<input type="text" name="cumple" id="cumple">
+					<select name="dia" id="dia" class="select-dia">
+						<option value="">DIA</option>
+						<?php for($i = 1; $i <= 31; $i++){
+							echo '<option value="'.$i.'">'.$i.'</option>';
+						} ?>
+					</select>
+					<select name="mes" id="mes" class="select-mes">
+						<option value="">MES</option>
+						<option value="Enero">Enero</option>
+						<option value="Febrero">Febrero</option>
+						<option value="Marzo">Marzo</option>
+						<option value="Abril">Abril</option>
+						<option value="Mayo">Mayo</option>
+						<option value="Junio">Junio</option>
+						<option value="Julio">Julio</option>
+						<option value="Agosto">Agosto</option>
+						<option value="Septiembre">Septiembre</option>
+						<option value="Octubre">Octubre</option>
+						<option value="Noviembre">Noviembre</option>
+						<option value="Diciembre">Diciembre</option>
+					</select>
+					<select name="anio" id="anio" class="select-anio">
+						<option value="">AÑO</option>
+						<?php for($i = date("Y"); $i >= date("Y")-100; $i--){
+							echo '<option value="'.$i.'">'.$i.'</option>';
+						} ?>
+					</select>
 				</div>
 			</div>
 			<div class="row">
