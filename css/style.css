@@ -219,6 +219,9 @@ body{
   #map_canvas,.map{
     height:300px;
   }
+  .select-dia{
+    width: 30%;
+  }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px){

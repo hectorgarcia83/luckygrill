@@ -10,7 +10,7 @@
 		<title>Lucky Grill</title>
 		<link rel="stylesheet" type="text/css" href="assets/bootstrap/css/bootstrap.css" />
 		<link rel="stylesheet" type="text/css" href="assets/bootstrap/css/bootstrap-theme.css" />
-		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<link rel="stylesheet" type="text/css" href="css/style.css?v=0.0.2" />
 		<link rel="Stylesheet" type="text/css" href="assets/jquery.smoothdivscroll/css/smoothDivScroll.css" />
 		<link rel="Stylesheet" type="text/css" href="assets/colorbox/example3/colorbox.css" />
 		<!--[if lt IE 9]>
@@ -32,7 +32,7 @@
 				         <span class = "icon-bar"></span>
 				         <span class = "icon-bar"></span>
 				      </button>
-				      <a class="navbar-brand" href="#inicio"><img src="images/logo-footer-silueta.png" alt=""></a>
+				      <a class="navbar-brand" href="#inicio"><img src="images/logo-footer.png" alt=""></a>
 				   </div>
 					<div class="collapse navbar-collapse luckymenu" id="navbar-menu-lg">
 						<ul class="nav navbar-nav">
@@ -111,7 +111,7 @@
 		<script src="assets/jquery.kinetic.min.js" type="text/javascript"></script>
 		<script src="assets/jquery.smoothdivscroll/js/jquery.smoothdivscroll-1.3-min.js" type="text/javascript"></script>
 		<script src="assets/colorbox/js/jquery.colorbox-min.js" type="text/javascript"></script>	
-		<script src="js/main.js"></script>
+		<script src="js/main.js?v=0.0.1"></script>
 	</body>
 </html>
 <script>
