@@ -9,6 +9,12 @@
     font-style: normal;
 }
 
+@font-face{
+  font-family:"AlternateGothic2BTRegular";
+  src: url('../assets/fonts/alternategothicno2btregular/alternate-gothic-no2-bt.eot');
+  src: url('../assets/fonts/alternategothicno2btregular/Alternate-Gothic-No-2-BT_3209.ttf') format('truetype'),
+}
+
 body{
 	/*background: url('../images/fondo.jpg');*/
     position: relative;
@@ -36,6 +42,7 @@ body{
 
 .footer-content-cel{
     margin-top: 10px;
+    padding-top: 10px;
     padding-bottom: 10px;
     background-color: black;
     opacity: 0.9;
@@ -65,7 +72,7 @@ body{
   position: relative;
   width: 100%;
   height: 600px;
-  background: url("../images/mapa_bw.png") 50% 50% / cover no-repeat;
+  background: url("../images/mapa-bw2.png") 50% 50% / cover no-repeat;
 }
 .mapa img{
   margin: 0 auto;
@@ -188,8 +195,38 @@ body{
     color: #454545;
     cursor: default;
 }
+.horario,.direccion{
+  font-size: 14px;
+  padding-top: 7px;
+  font-family: 'BebasNeueRegular';
+  color: white;
+  line-height: 18px;
+}
+.telefono{
+  font-size: 18px;
+  padding-top: 7px;
+  font-family: 'BebasNeueRegular';
+  color: white;
+  line-height: 18px;
+}
+.telefono span{
+  font-size: 12px;
+}
+.iconos-redes{
+  color: white;
+  font-size: 36px;
+}
+.iconos-redes a{
+  color: white;
+}
+.iconos-redes a:hover{
+  text-decoration: none;
+}
+.iconos-redes a:visited{
+  color: white;
+}
 .elementoFooter{
-    padding-top: 10px;
+    /*padding-top: 10px;*/
 }
 .elementoFooterCel{
     padding-top: 10px;

@@ -10,9 +10,11 @@
 		<title>Lucky Grill</title>
 		<link rel="stylesheet" type="text/css" href="assets/bootstrap/css/bootstrap.css" />
 		<link rel="stylesheet" type="text/css" href="assets/bootstrap/css/bootstrap-theme.css" />
-		<link rel="stylesheet" type="text/css" href="css/style.css?v=0.0.2" />
+		<link rel="stylesheet" type="text/css" href="css/style.css?v=0.0.6" />
 		<link rel="Stylesheet" type="text/css" href="assets/jquery.smoothdivscroll/css/smoothDivScroll.css" />
 		<link rel="Stylesheet" type="text/css" href="assets/colorbox/example3/colorbox.css" />
+		<link rel="Stylesheet" type="text/css" href="assets/jqueryui/jquery-ui.css" />
+		<link rel="stylesheet" href="assets/font-awesome-4.5.0/css/font-awesome.min.css">
 		<!--[if lt IE 9]>
 		  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
 		  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
@@ -32,7 +34,7 @@
 				         <span class = "icon-bar"></span>
 				         <span class = "icon-bar"></span>
 				      </button>
-				      <a class="navbar-brand" href="#inicio"><img src="images/logo-footer.png" alt=""></a>
+				      <a class="navbar-brand" href="#inicio"><img src="images/logo-top-footer.png" alt=""></a>
 				   </div>
 					<div class="collapse navbar-collapse luckymenu" id="navbar-menu-lg">
 						<ul class="nav navbar-nav">
@@ -83,22 +85,34 @@
 		<footer class="visible-sm visible-md visible-lg">
 			<nav class="navbar navbar-default navbar-fixed-bottom footer-content">
 			  <div class="container">
-					<div class="col-sm-2 elementoFooter">
-						<img src="images/horario.png" alt="">
+					<div class="col-sm-2 elementoFooter horario text-center">
+						Lunes - Domingo<br>13:00 pm a
+						<!--<img src="images/horario.png" alt="">-->
 					</div>
-					<div class="col-sm-2 elementoFooter">
-						<img src="images/direccion.png" alt="">
+					<div class="col-sm-2 elementoFooter direccion text-center">
+						Ave. Cancun #1498<br>Local 14 Isla Musala
+						<!--<img src="images/direccion.png" alt="">-->
 					</div>
 					<div class="col-sm-3 text-center logoFooter">
-						<img src="images/logo-footer-silueta.png" alt="">
+						<img src="images/logo-top-footer.png" alt="">
 					</div>
-					<div class="col-sm-2 elementoFooter">
-						<img src="images/telefono.png" alt="">
+					<div class="col-sm-2 elementoFooter telefono text-center">
+						Restaurante & Bar<br><span><i class="fa fa-phone"></i>&nbsp;&nbsp;&nbsp;Reserva al (667) 146.47.74</span>
+						<!--<img src="images/telefono.png" alt="">-->
 					</div>
-					<div class="col-sm-3 elementoFooter text-right">
-						<a href="https://www.facebook.com/LuckyGrillWingsBar" target="_blank"><img style="border:none" src="images/facebook.png" alt=""></a>&nbsp;
-						<a href="https://www.instagram.com/luckygrill/" target="_blank"><img style="border:none" src="images/instagram.png" alt=""></a>&nbsp;
-						<a href="https://twitter.com/luckygrillcln" target="_blank"><img style="border:none" src="images/twitter.png" alt=""></a>
+					<div class="col-sm-3 elementoFooter text-right iconos-redes">
+						<a href="https://www.facebook.com/LuckyGrillWingsBar" target="_blank">
+							<!--<img style="border:none" src="images/facebook.png" alt="">-->
+							<i class="fa fa-facebook-square"></i>
+						</a>
+						<a href="https://www.instagram.com/luckygrill/" target="_blank">
+							<!--<img style="border:none" src="images/instagram.png" alt="">-->
+							<i class="fa fa-instagram"></i>
+						</a>
+						<a href="https://twitter.com/luckygrillcln" target="_blank">
+							<!--<img style="border:none" src="images/twitter.png" alt="">-->
+							<i class="fa fa-twitter-square"></i>
+						</a>
 					</div>
 			  </div>
 			</nav>
@@ -106,12 +120,14 @@
 	
 		<script src="assets/foundation/js/vendor/jquery.min.js"></script>
 		<script src="assets/bootstrap/js/bootstrap.js"></script>
+		<!--<script src="assets/bootstrap/js/jquery.carousel.fullscreen.js"></script>-->
 		<script src="assets/jqueryui/jquery-ui.js" type="text/javascript"></script>
 		<script src="assets/jquery.mousewheel.min.js" type="text/javascript"></script>
 		<script src="assets/jquery.kinetic.min.js" type="text/javascript"></script>
 		<script src="assets/jquery.smoothdivscroll/js/jquery.smoothdivscroll-1.3-min.js" type="text/javascript"></script>
 		<script src="assets/colorbox/js/jquery.colorbox-min.js" type="text/javascript"></script>	
-		<script src="js/main.js?v=0.0.1"></script>
+		<script src="assets/jqueryui/datepicker-es.js"></script>
+		<script src="js/main.js"></script>
 	</body>
 </html>
 <script>
