@@ -66,7 +66,7 @@
 				<?php include('modules/menu.php'); ?>
 			</div>
 			
-			<div id="galeria">
+			<div id="galeria" class="">
 				<?php include('modules/galeria.php'); ?>
 			</div>
 			
@@ -86,7 +86,7 @@
 			<nav class="navbar navbar-default navbar-fixed-bottom footer-content">
 			  <div class="container">
 					<div class="col-sm-2 elementoFooter horario text-center">
-						Lunes - Domingo<br>13:00 pm a
+						Lunes - Domingo<br>a partir de la 01:00 pm
 					</div>
 					<div class="col-sm-2 elementoFooter direccion text-center">
 						Ave. Cancun #1498<br>Local 14 Isla Musala

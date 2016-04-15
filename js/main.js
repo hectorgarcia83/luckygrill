@@ -17,6 +17,7 @@ $(document).ready(function(){
 
 	$('.luckymenu a, .navbar-brand').click(function(e){
 		e.preventDefault();
+		$('#navbar-menu-lg').collapse('hide');
 		var idElement = $(this).attr('href');
 		$('html, body').animate({
 			scrollTop: $(idElement).offset().top-50
