@@ -97,6 +97,9 @@ body{
   margin-left: 0 !important;
   margin-right: 0 !important;
 }
+.gal-cel img{
+  cursor: pointer;
+}
 .contacto{
     min-height: 930px;
 }

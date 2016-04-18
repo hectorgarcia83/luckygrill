@@ -10,7 +10,7 @@
 		<title>Lucky Grill</title>
 		<link rel="stylesheet" type="text/css" href="assets/bootstrap/css/bootstrap.css" />
 		<link rel="stylesheet" type="text/css" href="assets/bootstrap/css/bootstrap-theme.css" />
-		<link rel="stylesheet" type="text/css" href="css/style.css?v=0.0.6" />
+		<link rel="stylesheet" type="text/css" href="css/style.css?v=0.0.7" />
 		<link rel="Stylesheet" type="text/css" href="assets/jquery.smoothdivscroll/css/smoothDivScroll.css" />
 		<link rel="Stylesheet" type="text/css" href="assets/colorbox/example3/colorbox.css" />
 		<link rel="Stylesheet" type="text/css" href="assets/jqueryui/jquery-ui.css" />

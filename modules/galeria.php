@@ -1,7 +1,7 @@
 <div class="row hidden-xs">
 	<div class="col-sm-12 galeria">
 		<div id="makeMeScrollable">
-			<a href="images/galeria/item1.png" class="gal1"><img src="images/galeria/thumbs/item1.png" alt="" id="" /></a>
+			<a href="images/galeria/item1.png" class="gal1" id="img-1"><img src="images/galeria/thumbs/item1.png" alt="" id="" /></a>
 			<a href="images/galeria/item2-1.png" class="gal1"><img src="images/galeria/thumbs/item2.png" alt="" id="" /></a>
 			<a style="display:none" href="images/galeria/item2-2.png" class="gal1"><img src="images/galeria/thumbs/item2.png" alt="" id="" /></a>
 			<a href="images/galeria/item3-1.png" class="gal1"><img src="images/galeria/thumbs/item3.png" alt="" id="" /></a>
@@ -30,8 +30,6 @@
 		</div>
 	</div>
 </div>
-<div class="row visible-xs">
-	<a href="images/galeria/item1.png" class="gal1">
-		<img src="images/galeria-xs.jpg" alt="" class="img-responsive">
-	</a>
+<div class="row visible-xs gal-cel">
+	<img src="images/galeria-xs.jpg" alt="" class="img-responsive" id="galeria-cel">
 </div>

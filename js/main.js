@@ -12,6 +12,11 @@ $(document).ready(function(){
 		maxHeight:'95%'
 	});
 
+	
+	$('#galeria-cel').click(function(){
+		$('#img-1').trigger("click");
+	})
+
 	$('body').scrollspy({ target: '#navbar-menu-lg' });
 	$('.help-block').hide();
 
