@@ -242,6 +242,24 @@ body{
 }
 
 
+@media only screen and (min-width: 481px) and (max-width: 550px){
+  .banner-xs{
+    height: 335px !important;
+  }
+}
+
+@media only screen and (min-width: 401px) and (max-width: 480px){
+  .banner-xs{
+    height: 290px !important;
+  }
+}
+
+@media only screen and (max-width: 400px){
+  .banner-xs{
+    height: 250px !important;
+  }
+}
+
 @media only screen and (max-width: 767px) {
   .form-contacto .titulo{
     font-size: 57px;

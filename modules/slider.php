@@ -14,25 +14,25 @@
             <div class="visible-lg banner" style="height: 640px; width: 100%; background-image: url('./images/sliders/lg/slider-1.jpg')"></div>
             <div class="visible-md banner" style="height: 598px; width: 100%; background-image: url('./images/sliders/md/slider-1.jpg')"></div>
             <div class="visible-sm banner" style="height: 493px; width: 100%; background-image: url('./images/sliders/sm/slider-1.jpg')"></div>
-            <div class="visible-xs banner" style="height: 379px; width: 100%; background-image: url('./images/sliders/xs/slider-1.jpg')"></div>
+            <div class="visible-xs banner banner-xs" style="height: 379px; width: 100%; background-image: url('./images/sliders/xs/slider-1.jpg')"></div>
         </div>
         <div class="item">
             <div class="visible-lg banner" style="height: 640px; width: 100%; background-image: url('./images/sliders/lg/slider-2.jpg')"></div>
             <div class="visible-md banner" style="height: 598px; width: 100%; background-image: url('./images/sliders/md/slider-2.jpg')"></div>
             <div class="visible-sm banner" style="height: 493px; width: 100%; background-image: url('./images/sliders/sm/slider-2.jpg')"></div>
-            <div class="visible-xs banner" style="height: 379px; width: 100%; background-image: url('./images/sliders/xs/slider-2.jpg')"></div>
+            <div class="visible-xs banner banner-xs" style="height: 379px; width: 100%; background-image: url('./images/sliders/xs/slider-2.jpg')"></div>
         </div>
         <div class="item">
             <div class="visible-lg banner" style="height: 640px; width: 100%; background-image: url('./images/sliders/lg/slider-3.jpg')"></div>
             <div class="visible-md banner" style="height: 598px; width: 100%; background-image: url('./images/sliders/md/slider-3.jpg')"></div>
             <div class="visible-sm banner" style="height: 493px; width: 100%; background-image: url('./images/sliders/sm/slider-3.jpg')"></div>
-            <div class="visible-xs banner" style="height: 379px; width: 100%; background-image: url('./images/sliders/xs/slider-3.jpg')"></div>
+            <div class="visible-xs banner banner-xs" style="height: 379px; width: 100%; background-image: url('./images/sliders/xs/slider-3.jpg')"></div>
         </div>
         <div class="item">
             <div class="visible-lg banner" style="height: 640px; width: 100%; background-image: url('./images/sliders/lg/slider-4.jpg')"></div>
             <div class="visible-md banner" style="height: 598px; width: 100%; background-image: url('./images/sliders/md/slider-4.jpg')"></div>
             <div class="visible-sm banner" style="height: 493px; width: 100%; background-image: url('./images/sliders/sm/slider-4.jpg')"></div>
-            <div class="visible-xs banner" style="height: 379px; width: 100%; background-image: url('./images/sliders/xs/slider-4.jpg')"></div>
+            <div class="visible-xs banner banner-xs" style="height: 379px; width: 100%; background-image: url('./images/sliders/xs/slider-4.jpg')"></div>
         </div>
     </div>
 

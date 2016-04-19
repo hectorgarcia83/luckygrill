@@ -10,7 +10,7 @@
 		<title>Lucky Grill</title>
 		<link rel="stylesheet" type="text/css" href="assets/bootstrap/css/bootstrap.css" />
 		<link rel="stylesheet" type="text/css" href="assets/bootstrap/css/bootstrap-theme.css" />
-		<link rel="stylesheet" type="text/css" href="css/style.css?v=0.0.7" />
+		<link rel="stylesheet" type="text/css" href="css/style.css?v=0.0.8" />
 		<link rel="Stylesheet" type="text/css" href="assets/jquery.smoothdivscroll/css/smoothDivScroll.css" />
 		<link rel="Stylesheet" type="text/css" href="assets/colorbox/example3/colorbox.css" />
 		<link rel="Stylesheet" type="text/css" href="assets/jqueryui/jquery-ui.css" />
@@ -67,7 +67,7 @@
 			</div>
 			
 			<div id="galeria" class="">
-				<?php include('modules/galeria.php'); ?>
+				<?php include('modules/galeria2.php'); ?>
 			</div>
 			
 			<div id="ubicacion">
@@ -133,4 +133,12 @@
   ga('create', 'UA-32840860-17', 'auto');
   ga('send', 'pageview');
 
+
+$('#derecha').click(function() {
+    var auto = $('.gal1');
+    auto.animate(
+    	{
+    		left : parseInt(auto.css('left'))+50
+    	},2000);
+});
 </script>
