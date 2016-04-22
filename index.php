@@ -118,7 +118,7 @@
 		<script src="assets/jqueryui/jquery-ui.js" type="text/javascript"></script>
 		<script src="assets/jquery.mousewheel.min.js" type="text/javascript"></script>
 		<script src="assets/jquery.kinetic.min.js" type="text/javascript"></script>
-		<script src="assets/jquery.smoothdivscroll/js/jquery.smoothdivscroll-1.3-min.js" type="text/javascript"></script>
+		<script src="assets/jquery.smoothdivscroll/js/jquery.smoothdivscroll-1.3.js" type="text/javascript"></script>
 		<script src="assets/colorbox/js/jquery.colorbox-min.js" type="text/javascript"></script>	
 		<script src="assets/jqueryui/datepicker-es.js"></script>
 		<script src="js/main.js"></script>

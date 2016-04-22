@@ -1,5 +1,23 @@
 var carousel;
 $(document).ready(function(){
+
+	$("#izquierda").click(function(){
+		//console.log('izquierda');
+		var leftPos = $('.container-gal').scrollLeft();
+		console.log(leftPos);    
+		$("div.container-gal").animate({
+			scrollLeft: leftPos - 500
+		}, 500);
+	});
+
+	$("#derecha").click(function(){
+		//console.log('izquierda');
+		var leftPos = $('.container-gal').scrollLeft();
+		console.log(leftPos);    
+		$("div.container-gal").animate({
+			scrollLeft: leftPos + 500
+		}, 500);
+	});
 	
 	$("div#makeMeScrollable").smoothDivScroll({
 		autoScrollingMode: "",
