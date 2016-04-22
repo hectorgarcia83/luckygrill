@@ -1,8 +1,9 @@
 var carousel;
 $(document).ready(function(){
 
-	$("#izquierda").click(function(){
-		//console.log('izquierda');
+	$(".prev").click(function(event){
+		event.preventDefault();
+		console.log('prev');
 		var leftPos = $('.container-gal').scrollLeft();
 		console.log(leftPos);    
 		$("div.container-gal").animate({
@@ -10,18 +11,14 @@ $(document).ready(function(){
 		}, 500);
 	});
 
-	$("#derecha").click(function(){
-		//console.log('izquierda');
+	$(".next").click(function(event){
+		event.preventDefault();
+		console.log('next');
 		var leftPos = $('.container-gal').scrollLeft();
 		console.log(leftPos);    
 		$("div.container-gal").animate({
 			scrollLeft: leftPos + 500
 		}, 500);
-	});
-	
-	$("div#makeMeScrollable").smoothDivScroll({
-		autoScrollingMode: "",
-		manualContinuousScrolling: true
 	});
 	
 	$(".gal1").colorbox({

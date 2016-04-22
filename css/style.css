@@ -68,6 +68,56 @@ body{
     color: #F5D204 !important;
 }
 
+.container-gal{
+    width: 100%;
+    height: 550px;
+    white-space: nowrap;
+    overflow:hidden;
+
+
+  }
+  .list-images a{
+    margin-left: -4px;
+  }
+
+  .container-gal a.prev{
+    left: 0;
+    background-position: 0 0 !important;
+  }
+
+  .container-gal a.next{
+    right: -1px;
+    background-position: -64px 0 !important;
+  }
+
+  .container-gal a.prev, .container-gal a.next{
+    display: block;
+    position: absolute;
+    top: 50%;
+    margin-top: -70px;
+    width: 64px;
+    height: 64px;
+    background: url("../images/arrows.png");
+    background-repeat: no-repeat;
+  }
+  .container-gal a.next:hover {
+    background-position: -64px -132px !important;
+  }
+
+  .container-gal a.next:active {
+    background-position: -64px -198px !important;
+  }
+  .container-gal a.prev:hover {
+    background-position: 0 -66px !important;
+  }
+
+  .container-gal a.prev:active {
+    background-position: 0 -132px !important;
+  }
+  .container-gal a {
+    text-decoration: none;
+  }
+
 .mapa{
   position: relative;
   width: 100%;
@@ -290,6 +340,9 @@ body{
   #map_canvas,.map{
     height:400px;
   }
+  .container-gal a.prev, .container-gal a.next{
+    margin-top: -240px;
+  }
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px){
@@ -299,6 +352,9 @@ body{
   }
   #map_canvas,.map{
     height:500px;
+  }
+  .container-gal a.prev, .container-gal a.next{
+    margin-top: -194px;
   }
 }
 

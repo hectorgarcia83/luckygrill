@@ -1,6 +1,6 @@
 <div class="container footer-content-cel">
 	<div class="col-xs-12 horario text-center">
-		Lunes - Domingo 13:00 pm a
+		Lunes - Domingo<br>a partir de la 01:00 pm
 	</div>
 	<div class="col-xs-12 elementoFooter direccion text-center">
 		Ave. Cancun #1498. Local 14 Isla Musala
