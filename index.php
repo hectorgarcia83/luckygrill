@@ -65,7 +65,7 @@
 			</div>
 			
 			<div id="galeria" class="">
-				<?php include('modules/galeria2.php'); ?>
+				<?php include('modules/galeria.php'); ?>
 			</div>
 			
 			<div id="ubicacion">
