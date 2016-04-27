@@ -1,28 +1,28 @@
-<?php
+<?php 
+date_default_timezone_set('America/Mazatlan');
 
-$post = [
-    'nombre' => $_POST["nombre"],
-    'fechaCumpleanos' => $_POST["fechaCumpleanos"],
-    'mail'   => $_POST["mail"],
-    'comentarios' => $_POST["comentarios"]
-];
+$nombre = $_POST["nombre"];
+$fechaCumpleanos = $_POST["fechaCumpleanos"];
+$mail = $_POST["mail"];
+$comentarios = $_POST["comentarios"];
 
-$ch = curl_init();
+$to = "joanhy.grupoalbertos@gmail.com";
+$subject = "Contacto Lucky Grill";
+$body = "Una persona ha solicitado información desde el sitio web.";
+$body .= "<br><strong>Nombre: </strong>$nombre";
+$body .= "<br><strong>Fecha de Cumpleaños: </strong>$fechaCumpleanos";
+$body .= "<br><strong>Mail: </strong>$mail";
+$body .= "<br><strong>Comentarios: </strong>$comentarios";
 
-curl_setopt($ch, CURLOPT_URL,"http://www.kamilati.com/mailsSender/luckygrill.php");
-curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-curl_setopt($ch, CURLOPT_POSTFIELDS, $post);
+$cabeceras  = 'MIME-Version: 1.0' . "\r\n";
+$cabeceras .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
+$cabeceras .= "From: noreply@luckygrill.mx\r\n";
 
-$response = curl_exec($ch);
-
-// close the connection, release resources used
-curl_close($ch);
-
-if($response == "OK"){
-	$resp = ["success" => true];
+if(mail($to,$subject,$body,$cabeceras)){
+	$response = ["success" => true];
 }else{
-	$resp = ["success" => false];
+	$response = ["success" => false];
 }
 
-echo json_encode($resp);
+echo json_encode($response);
 ?>
