@@ -110,7 +110,7 @@
 			</nav>
 		</footer>
 	
-		<script src="assets/foundation/js/vendor/jquery.min.js"></script>
+		<script src="assets/jquery-2.2.1.min.js"></script>
 		<script src="assets/bootstrap/js/bootstrap.js"></script>
 		<script src="assets/colorbox/js/jquery.colorbox-min.js" type="text/javascript"></script>	
 		<script src="js/main.js"></script>
