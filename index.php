@@ -5,9 +5,9 @@
 		<meta http-equiv="x-ua-compatible" content="ie=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<meta name="author" content="Héctor García" />
-		<meta name="description" content="Sitio web del Restaurante Lucky Grill" />
-		<meta name="keywords" content="restaurante, restaurante bar, alitas, lucky grill, culiacán, cerveza, hamburguesas, kamilati" />
-		<title>Lucky Grill</title>
+		<meta name="description" content="Sitio web del Restaurante Full House" />
+		<meta name="keywords" content="restaurante, restaurante bar, alitas, full house, culiacán, cerveza, hamburguesas, kamilati, grupo albertos" />
+		<title>Full House</title>
 		<link rel="stylesheet" type="text/css" href="assets/bootstrap/css/bootstrap.css" />
 		<link rel="stylesheet" type="text/css" href="assets/bootstrap/css/bootstrap-theme.css" />
 		<link rel="stylesheet" type="text/css" href="css/style.css?v=1.0" />
@@ -23,7 +23,7 @@
 	<body>
 		<section>
 			<header>
-				<nav class="navbar navbar-default navbar-fixed-top menu-content" role="navigation">
+				<nav class="navbar navbar-default navbar-fixed-top menu-content " role="navigation">
 					<div class = "navbar-header">
 				      <button type = "button" class = "navbar-toggle" 
 				         data-toggle = "collapse" data-target = "#navbar-menu-lg">
@@ -32,9 +32,9 @@
 				         <span class = "icon-bar"></span>
 				         <span class = "icon-bar"></span>
 				      </button>
-				      <a class="navbar-brand" href="#inicio"><img src="images/logo-top-nuevo.png" alt="" width="123.5" height="40"></a>
+				      <a class="navbar-brand visible-xs" href="#inicio"><img src="images/logo-bottom.png" alt="" width="123.5" ></a>
 				   </div>
-					<div class="collapse navbar-collapse luckymenu" id="navbar-menu-lg">
+					<div class="collapse navbar-collapse mimenu" id="navbar-menu-lg">
 						<ul class="nav navbar-nav">
 							<li>
 								<a href="#inicio">INICIO</a>
@@ -84,16 +84,16 @@
 			<nav class="navbar navbar-default navbar-fixed-bottom footer-content">
 			  <div class="container">
 					<div class="col-sm-2 elementoFooter horario text-center">
-						Lunes - Domingo<br>a partir de la 01:00 pm
+						Lunes - Domingo<br>Abierto a partir de la 1:00 pm
 					</div>
 					<div class="col-sm-2 elementoFooter direccion text-center">
-						Ave. Cancun #1498<br>Local 14 Isla Musala
+						Sierra Madre Oriental<br>#2905, Col. Loma Linda
 					</div>
 					<div class="col-sm-3 text-center logoFooter">
-						<img src="images/logo-top-nuevo.png" alt="" width="123.5" height="40" >
+						<img src="images/logo-bottom.png" alt="" width="123.5" >
 					</div>
 					<div class="col-sm-2 elementoFooter telefono text-center">
-						Restaurante & Bar<br><span><i class="fa fa-phone"></i>&nbsp;&nbsp;&nbsp;Reserva al (667) 146.47.74</span>
+						Restaurante & Bar<br><span><i class="fa fa-phone"></i>&nbsp;&nbsp;&nbsp;Reserva al (667)4-558120</span>
 					</div>
 					<div class="col-sm-3 elementoFooter text-right iconos-redes">
 						<a href="https://www.facebook.com/LuckyGrillWingsBar" target="_blank">
